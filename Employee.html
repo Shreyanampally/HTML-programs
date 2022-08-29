@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <h1>Employee Interests Survey form</h1>
+        <style>
+            h1{
+                color:rgb(234, 36, 36);
+                text-align:center;
+            }
+            #a{
+                color:rgb(17, 17, 232);
+                font-style:normal;
+                font-size:20px;
+                font-family:sans-serif;
+
+            }
+            #b{
+                color:rgb(24, 34, 234);
+                font-style:normal;
+                font-size:20px;
+                font-family:sans-serif;
+            }
+            #c{
+                color:rgb(37, 30, 236);
+                font-style:normal;
+                font-size:20px;
+                /* font-family:'Franklin Gothic Medium'; */
+                font-family:sans-serif;
+            }
+            #d{
+                color:rgb(27, 27, 237);
+                font-style:normal;
+                font-size:20px;
+                font-family:sans-serif;
+            }
+            #e{
+                color:rgb(32, 26, 215);
+                font-style:normal;
+                font-size:20px;
+                font-family:sans-serif;
+            }
+            #f{
+                color:rgb(32, 26, 215);
+                font-style:bold;
+                font-size:20px;
+                font-family:sans-serif;
+            }
+            body{
+                background-color:blanchedalmond;
+                text-align: center;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <form>
+        <label id="a">Enter your name</label>
+        <input type="text">
+        <br></br>
+        <label id="b">Enter your department</label>
+        <input type="text">
+        <br></br>
+        <label id="c">Tell us a little about yourself:</label>
+        <textarea = cols=15 rows=7></textarea>
+        <br></br>
+        <label id="d">Do you exercise at home?</label>
+        <input type="radio" id="yes" name="yes" value="YES">
+        <label for="yes">YES</label>
+        <input type="radio" id="no" name="no" value="NO">
+        <label for="no">NO</label>
+        <br></br>
+        <label id="e">What do you like to read?</label>
+        <br></br>
+        <input type="checkbox" id="Books" name="Books" ><span style="color:blueviolet;">Books</span></checkbox>
+        <input type="checkbox" id="Phone apps" name="Phone apps"><span style="color:blueviolet;">Phone apps</span></checkbox>
+        <input type="checkbox" id="Magazines" name="Magazines"><span style="color:blueviolet;">Magazines</span></checkbox>
+        <br></br>
+        <label id="f">What genre movies do you like to watch?</label>&nbsp
+        <select>
+            <option value="Other">Other</option>
+            <option value="Suspence">Suspence</option>
+            <option value="Horror">Horror</option>
+            <option value="Action">Action</option>
+            <option value="Sci-Fi">Sci-fi</option>
+        </select>
+        <br></br>
+        <button style="color: rgb(235, 229, 229);background-color: brown;font-size: 20px;" type="Submit" value="Submit form">
+            Submit form
+        </button>
+        </form>
+    </body>
+</html>
